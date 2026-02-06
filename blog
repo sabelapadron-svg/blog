@@ -1,0 +1,172 @@
+# blog
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Blog de la NBA</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: lightgray;
+            line-height: 1.6;
+        }
+
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+
+        h2 {
+            color: darkred;
+        }
+
+        p {
+            background-color: white;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .fecha {
+            font-style: italic;
+            color: gray;
+        }
+
+        .jugador {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        #indice {
+            background-color: white;
+            padding: 10px;
+        }
+
+        a {
+            color: blue;
+            text-decoration: underline;
+        }
+
+       table {
+    border-collapse: collapse;
+    background-color: #f0f8ff;
+    font-family: serif;
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    background-color: white;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+        img {
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Blog de la NBA 🏀</h1>
+
+<p class="fecha">Blog sobre la mejor liga de baloncesto</p>
+
+<h2>Historia de la NBA</h2>
+<p>
+La <strong>NBA</strong> fue fundada en <strong>1946</strong> y es la liga de baloncesto
+más importante del mundo. En ella han jugado grandes estrellas como
+<em>Michael Jordan</em> y <em>LeBron James</em>. La liga contiene 30 equipos, divididos en la Conferencia Este y en la Conferencia Oeste, en la que cada una contiene 15 equipos. Cada equipo disputa 82 partidos y al acabarlos se juegan los playoffs, de donde saldrá el equipo ganador de la NBA.
+</p>
+
+<h2>Equipos destacados</h2>
+<div id="indice">
+<ul>
+    <li><a href="#warriors">Golden State Warriors</a></li>
+    <li><a href="#lakers">Los Angeles Lakers</a></li>
+    <li><a href="#celtics">Boston Celtics</a></li>
+    <li><a href="#bulls">Chicago Bulls</a></li>
+</ul>
+</div>
+
+<h2 id="warriors">Golden State Warriors</h2>
+<img src="https://upload.wikimedia.org/wikipedia/en/0/01/Golden_State_Warriors_logo.svg" width="120">
+<p>
+Los <strong>Golden State Warriors</strong> son conocidos por su juego ofensivo
+y el tiro de tres puntos. Es uno de los mejores equipos de la liga debido a que tienen siete campeonatos de la NBA. Ademas son la última dinastía que ha habido en los últimos tiempos, ganando cuatro campeonatos en siete años.
+</p>
+<p class="jugador">Stephen Curry</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-rD1yAL6yVhVJJCrpBhfbGECwpNip5nge4g&s" width="150">
+<p>
+<em>Stephen Curry</em> es el mejor tirador de triples de la historia y el mejor jugador que ha tenido este equipo. Curry es un base de 1,88 metros de altura y que entró a la NBA en 2009. Ha ganado dos MVP y uno de ellos fue unánime, convirtiéndose en el único en lograrlo de la historia.
+</p>
+
+<h2 id="lakers">Los Angeles Lakers</h2>
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Los_Angeles_Lakers_logo.svg" width="120">
+<p>
+Los <strong>Lakers</strong> son uno de los equipos más exitosos de la NBA. Son el equipo con más campeonatos junto a los Boston Celtics, que tienen 17. En este equipo han jugado jugadores como Magic Johnson o Shaquille O,Neal.</p>
+<p class="jugador">Kobe Bryant</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQv8bzmiW6j8U6QLArf90YZFM5x9PK74BNLw&s" width="150">
+<p>
+<em>Kobe Bryant</em> fue uno de los jugadores más importantes en la historia de la NBA y una leyenda de Los Angeles Lakers. Jugó 20 temporadas con el mismo equipo y ganó 5 campeonatos, destacando por su talento ofensivo y mentalidad competitiva. Fue 18 veces All-Star y MVP de la temporada en 2008. Su famosa “Mamba Mentality” lo convirtió en un ejemplo de esfuerzo y disciplina. Su legado sigue vivo dentro y fuera del baloncesto.
+</p>
+
+<h2 id="celtics">Boston Celtics</h2>
+<img src="https://upload.wikimedia.org/wikipedia/en/8/8f/Boston_Celtics.svg" width="120">
+<p>
+Los <strong>Celtics</strong> son una de las franquicias más históricas de la NBA. Fundados en 1946, han ganado 17 campeonatos, empatados con los Lakers como el equipo más ganador. Destacaron especialmente en las décadas de 1950 y 1960 liderados por Bill Russell, y más tarde con leyendas como Larry Bird. Los Celtics son conocidos por su fuerte tradición, su afición y su histórica rivalidad con Los Angeles Lakers.
+
+</p>
+<p class="jugador">Larry Bird</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfO9lc2r3jvgeIsqIQ1PGvIro92cEit9BhPw&s" width="150">
+<p>
+<em>Larry Bird</em> fue una de las mayores leyendas de la NBA y el jugador más importante de los Boston Celtics. Jugó toda su carrera en el equipo y ganó 3 campeonatos de la NBA en los años 80. Fue 3 veces MVP consecutivo (1984-1986) y destacó por su gran tiro, visión de juego e inteligencia en la cancha. Su rivalidad con Magic Johnson, jugador de los Angeles Lakers, marcó una era del baloncesto.
+</p>
+
+<h2 id="bulls">Chicago Bulls</h2>
+<img src="https://upload.wikimedia.org/wikipedia/en/6/67/Chicago_Bulls_logo.svg" width="120">
+<p>
+Los <strong>Bulls</strong> son una de las franquicias más exitosas de la NBA, especialmente en la década de 1990. Liderados por Michael Jordan, ganaron 6 campeonatos (1991–1993 y 1996–1998). Los Bulls se hicieron famosos por su dominio, su estilo competitivo y su impacto global en el baloncesto. Su historia está marcada por una de las dinastías más recordadas del deporte.
+</p>
+<p class="jugador">Michael Jordan</p>
+<img src="https://cdn.nba.com/headshots/nba/latest/1040x760/893.png" width="150">
+<p>
+<em>Michael Jordan</em> es considerado por muchos el mejor jugador en la historia de la NBA. Jugó la mayor parte de su carrera con los Chicago Bulls, con quienes ganó 6 campeonatos y 6 MVP de las Finales. Destacó por su capacidad anotadora, competitividad y liderazgo. Su impacto trascendió el baloncesto, convirtiéndose en una imagen mundial del deporte.
+</p>
+
+<h2>Resumen de equipos</h2>
+<table>
+    <tr>
+        <th>Equipo</th>
+        <th>Ciudad</th>
+    </tr>
+    <tr>
+        <td>Warriors</td>
+        <td>San Francisco</td>
+    </tr>
+    <tr>
+        <td>Lakers</td>
+        <td>Los Angeles</td>
+    </tr>
+    <tr>
+        <td>Celtics</td>
+        <td>Boston</td>
+    </tr>
+    <tr>
+        <td>Bulls</td>
+        <td>Chicago</td>
+    </tr>
+</table>
+
+<p>
+Más información sobre esta liga y los equipos actuales:
+<a href="https://www.nba.com/">nba.com</a>
+</p>
+
+</body>
+</html>
